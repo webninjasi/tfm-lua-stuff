@@ -14,3 +14,13 @@ function create3DText(t, x, y, n, si, c, cl, cla, sz, fX, fY, w, h, bg, br, o, f
 		ui.addTextArea(i,t:format(cl+(i*cla)),n,x+(fX*i),y+(fX*i),w,h,bg,br,o,f)
 	end
 end
+
+--[[
+Example:
+	laserShoot(20, 20, 50, 50)
+]]
+function laserShoot(x, y, x2, y2)
+	local dx, dy = x2-x, y2-y
+	local d = math.sqrt(dx^2 + dy^2)/20
+	tfm.exec.displayParticle(13, x, y, dx/d, dy/d, 0, 0)
+end
