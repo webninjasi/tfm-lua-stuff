@@ -59,10 +59,9 @@ function init()
 	end
 end
 function eventNewPlayer(name)
-	_set(players, name, {muteList={}, msgs={}, msgc=0})
-end
-function eventPlayerLeft(name)
-	_set(players, name, nil)
+	if not _get(players, name) then
+		_set(players, name, {muteList={}, msgs={}, msgc=0})
+	end
 end
 function eventChatCommand(name, cmd)
 	local args = {}
