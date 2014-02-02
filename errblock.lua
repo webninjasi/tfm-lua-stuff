@@ -1,6 +1,6 @@
 -- Error Informer
 --[[
-This prevents the script from stopping when a runtime error occurred and informs you about the error
+Don't forget to change sendDevMsg
 ]]
 
 function sendDevMsg(m)
