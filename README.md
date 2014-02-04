@@ -28,7 +28,7 @@
 
 -
 
-##### `Snippets` snippets.lua
+##### `Others` other.lua
 + `create3DText`
 + `laserShoot`
 + `getVP`
