@@ -1,3 +1,5 @@
+[Some details about TFM API](https://github.com/webninjasi/tfm-lua-stuff/blob/master/details.md)
+
 ##### `Admin Menu` amenu.lua
 > The script lets you manage players via a menu
 
