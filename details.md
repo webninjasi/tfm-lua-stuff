@@ -29,3 +29,18 @@ info = {
   id = 0,
 }
 ```
+#### eventChatCommand
+`STR name, STR command`
+
+If you have HTML entity in your message, they will be encoded. So if you want to be able to use HTML tags via a command, you need to decode like this:
+```lua
+function eventChatCommand(name, cmd)
+  if 'h ' == cmd:sub(1,2) then
+    tfm.exec.chatMessage(string.format('<V>[%s] <N>%s', name, convertHTML(cmd:sub(3))))
+  end
+end
+function convertHTML(str)
+  return str:gsub('&lt;','<'):gsub('&gt;','>')
+  -- If you want to use ampersand, add this to end of above line :gsub('&amp;','&')
+end
+```
