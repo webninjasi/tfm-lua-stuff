@@ -36,3 +36,4 @@
 + `getVP`
 + `getV`
 + `setV`
++ A simple quine
