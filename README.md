@@ -30,10 +30,24 @@
 
 -
 
-##### `Others` other.lua
-+ `create3DText`
-+ `laserShoot`
-+ `getVP`
-+ `getV`
-+ `setV`
-+ A simple quine
+##### `3D Text Effect` 3dtext.lua
+> A simple 3D text effect
+
+-
+
+##### `Quine` quine.lua
+> http://en.wikipedia.org/wiki/Quine_(computing)
+
+-
+
+##### `Laser Shoot Effect` lasershoot.lua
+
+-
+
+##### `Functions` functions.lua
+> The functions that I mostly use
+
+-
+
+##### `Variable Get/Set` variable.lua
+> You can set or get variables via their names with the functions inside this file
