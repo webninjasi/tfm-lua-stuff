@@ -51,3 +51,8 @@
 
 ##### `Variable Get/Set` variable.lua
 > You can set or get variables via their names with the functions inside this file
+
+-
+
+##### `Lays' Palette+` layspalette.lua
+> Improved palette
