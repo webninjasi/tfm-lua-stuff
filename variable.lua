@@ -5,9 +5,13 @@ Params:
 	setV(STRING variableName, ANY value, TABLE parentTable)
 ]]
 function getVP(s,t)
-	local k,v = s:match'^(.-)%.(.+)'
-	if k == nil then return t or _G, s end
-	return getVP(v,t and t[k] or _G[k])
+	local t = t or _G
+	for k, d in s:gmatch'([^%.]+)(%.?)' do
+		if '.' ~= d then
+			return t, k
+		end
+		t = t[k]
+	end
 end
 function getV(s,t)
 	local p,k = getVP(s,t)
