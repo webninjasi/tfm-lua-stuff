@@ -26,7 +26,9 @@
 -
 
 ##### `Warning Blocker` warnblock.lua
-> Blocks warning messages like `You can't call this function [tfm.exec.newGame] more than once per 3 seconds.`
+> Prevents warning messages such as
+> `You can't call this function [tfm.exec.newGame] more than once per 3 seconds.`
+> `ui.updateTextArea : Text length can't be superior to 2000 chars.`
 
 -
 
