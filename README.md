@@ -26,7 +26,7 @@
 -
 
 ##### `Warning Blocker` warnblock.lua
-> Blocks warning messages like `You can't call this function [tfm.exec.newGame] more than once per 3 seconds.`
+> Blocks warning messages such as `You can't call this function [tfm.exec.newGame] more than once per 3 seconds.`
 
 -
 
