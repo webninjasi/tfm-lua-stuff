@@ -1,7 +1,7 @@
 [Some details about TFM API](https://github.com/webninjasi/tfm-lua-stuff/blob/master/details.md)
 
 ##### `Admin Menu` amenu.lua
-> The script lets you manage players via a menu
+> Lets you manage players via a menu
 
 -
 
@@ -11,7 +11,7 @@
 -
 
 ##### `Error Informer` errblock.lua
-> This prevents the script from stopping when a runtime error occurred and informs you about the error
+> Prevents the script from stopping when a runtime error occurred and informs you about the error
 
 -
 
@@ -21,7 +21,6 @@
 -
 
 ##### `Short Message Script` sms.lua
-> The script lets you have an inbox and send message to players in the room
 
 -
 
@@ -33,7 +32,6 @@
 -
 
 ##### `3D Text Effect` 3dtext.lua
-> A simple 3D text effect
 
 -
 
@@ -46,15 +44,10 @@
 
 -
 
-##### `Functions` functions.lua
-> The functions that I mostly use
-
--
-
-##### `Variable Get/Set` variable.lua
-> You can set or get variables via their names with the functions inside this file
+##### `Utils` utils.lua
+> Some functions that I use
 
 -
 
 ##### `Lays' Palette+` layspalette.lua
-> Improved palette
+> My improved palette clone
