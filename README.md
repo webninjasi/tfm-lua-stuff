@@ -51,3 +51,13 @@
 
 ##### `Lays' Palette+` layspalette.lua
 > My improved palette clone
+
+-
+
+##### `Digital Clock` clock.lua
+> A simple digital clock.
+
+-
+
+##### `Dijital Saat` saat.lua
+> Basit bir dijital saat.
