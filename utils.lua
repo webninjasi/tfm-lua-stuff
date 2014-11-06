@@ -1,5 +1,5 @@
 ---
--- Lays TFM Lua Utils
+-- Utils
 ---
 
 --- Alias for tfm.exec, keep it at the top of script

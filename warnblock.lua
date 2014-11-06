@@ -1,4 +1,6 @@
+---
 -- Warning Blocker
+---
 
 do
 	local addTextArea = ui.addTextArea

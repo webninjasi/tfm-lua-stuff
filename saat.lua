@@ -1,5 +1,5 @@
 ---
--- Lays'in Dijital Saati
+-- Dijital Saat
 ---
 
 clock = {

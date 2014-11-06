@@ -1,5 +1,5 @@
 ---
--- Lays' Digital Clock
+-- Digital Clock
 ---
 
 clock = {

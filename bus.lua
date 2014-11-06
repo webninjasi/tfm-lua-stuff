@@ -1,7 +1,10 @@
+---
 -- Bus Animation
+---
+
 bus={x=10,y=0,
 	color=0xFFD800,color2=0x333333,
-	--target='Transforcips',
+	--target='Transforlays',
 	wheel={
 		state=true,
 		text='<p align="center"><font color="#121212" size="44">',

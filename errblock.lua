@@ -1,7 +1,7 @@
+---
 -- Error Informer
---[[
-Don't forget to change sendDevMsg
-]]
+---
+--# Don't forget to add your name to devs table
 
 function sendDevMsg(m)
 	local devs={'Transforlays'}

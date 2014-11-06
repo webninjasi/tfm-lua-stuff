@@ -1,12 +1,15 @@
+---
 -- Admin Menu
+---
 --[[
-While holding P key, click on a mouse to select player
+To select someone, hold P key and click on the player's mouse
 Commands:
 	!amenu
 	!amenu [name]
 	!amenu *
 Action format: {'Label',functionName,{'Arg Name','Arg Name'},{'Default Value'}}
 ]]
+
 players={}
 aMenu={
 	actions={{'New Map',tfm.exec.newGame,{'Map Code'},{0}},{'Set Time',tfm.exec.setGameTime,{'Time','Init'},{120}},

@@ -1,4 +1,7 @@
---[[ 3D Text Effect
+---
+-- 3D Text Effect
+--
+--[[
 Params:
 	text, x, y, target, startID, textAreaCount, color, colorAdd, textSize,
 	factorX, factorY, width, height, backgroundColor, borderColor, opacity, isFixed
@@ -13,5 +16,5 @@ function create3DText(t, x, y, n, si, c, cl, cla, sz, fX, fY, w, h, bg, br, o, f
 	end
 end
 
---[[ Example ]]
+--# Example
 create3DText('Test', 200, 75)

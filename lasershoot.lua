@@ -1,4 +1,6 @@
---[[ Simple laser shoot effect ]]
+---
+-- Simple laser shoot effect
+---
 
 function laserShoot(x, y, x2, y2, len)
 	local dx, dy = x2-x, y2-y
@@ -8,7 +10,7 @@ function laserShoot(x, y, x2, y2, len)
 	end
 end
 
---[[ Example ]]
+--# Example Usage
 
 players = {}
 function eventNewPlayer(name)

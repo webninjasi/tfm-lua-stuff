@@ -1,5 +1,5 @@
 ---
--- Lays' Palette+
+-- Palette+
 ---
 
 local LANG = 'EN'

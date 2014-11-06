@@ -1,4 +1,7 @@
+---
 -- Matrix Effect
+---
+
 matrix={
 	char={},
 	text={},
